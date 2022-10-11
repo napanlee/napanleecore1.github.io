@@ -1,0 +1,73 @@
+
+body {
+    background-color: #f1ecd4;
+    font-family: 'Xanh Mono', monospace;
+    padding: 50px;
+}
+h1{
+    text-align: center;
+    color: #5b5342;
+    font-size: 120px;
+    font-style: italic;
+    margin-bottom: 0px;
+    background: linear-gradient(90deg, #867474, #a5a589, #ffda91, #9a9ba0, #71688b, #975656);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    background-size: 300%;
+    background-position: -100%;
+
+    animation: animatedText 10s linear infinite;
+}
+
+
+@keyframes animatedText{
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 100%;
+    }
+}
+
+        
+    
+
+
+
+
+
+
+
+
+h3{
+    color: #101010;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    text-align: center;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 50px;
+    
+}
+      
+
+
+
+
+p{
+    color: #101010;
+    font-size: 124px;
+    line-height: 140%;
+}
+ .text {
+    padding: 20px;
+} 
+img {
+    max-width: 40%;
+    float: right;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
