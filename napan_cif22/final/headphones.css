@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Shrikhand&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin 0;
+    padding 0;
+    background-color: rgb(37, 35, 35);
+}
+
+.cursor-emoji {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='128px' width='128px' style='fill:black;font-size:64px;'><text y='50%'>🎵</text></svg>"), auto;
+}
+
+button {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%
+}
+
+.logo {
+    cursor: pointer;
+}
+
+
+
+.songs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5em 2em;
+    align-items: center;
+    
+}
+
+
+.headphonesemoji {
+    font-size: 100px;
+    text-align: center;
+    line-height: 5px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    overflow: hidden;
+    border-right: .15em solid rgb(255, 255, 255);
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+    typing 2s steps(41) forwards,
+    blink 1.2s infinite;
+
+}
+
+.container {
+    display: inline-block;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to { width: 100%;}
+}
+
+@keyframes blink {
+    from {border-color: transparent;}
+    to {border-color: rgb(255, 255, 255);}
+}
